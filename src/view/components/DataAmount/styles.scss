@@ -1,0 +1,44 @@
+.data-amount {
+  padding: 24px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+
+  .data-amount-text {
+    margin-bottom: 16px;
+
+    .storage-amount {
+      color: #FCFCFC;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .plus-icon {
+      position: relative;
+      display: block;
+      border: 1px solid #8A91AA;
+      border-radius: 50%;
+      height: 21px;
+      width: 21px;
+
+      span {
+        color: #0FB0EE;
+        position: absolute;
+        top: -4px;
+        left: 4px;
+      }
+    }
+  }
+
+  .data-amount-progress {
+    .progress {
+      height: 4px;
+      border-radius: 0;
+
+      .progress-bar {
+        background-color: #0FB0EE;
+      }
+    }
+  }
+}

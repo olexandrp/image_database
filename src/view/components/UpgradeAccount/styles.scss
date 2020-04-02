@@ -1,0 +1,12 @@
+.upgrade-account {
+  padding: 12px;
+
+  span {
+    margin-left: 16px;
+    color: #FCFCFC;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+}
